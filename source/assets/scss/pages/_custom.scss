@@ -453,7 +453,7 @@ ol.lista > li.mas:before {
 }
 .centrado{
     position: absolute;
-    top: 130%;
+    top: 50%;
     left: 60%;
     transform: translate(-50%, -50%);
 }
@@ -696,4 +696,10 @@ ol.lista > li.mas:before {
         max-width: 100%;
         height: auto;
     }
-      
+
+    .img-float {
+        float: left;
+      }
+      .img-float-1 {
+        float: center;
+      }
