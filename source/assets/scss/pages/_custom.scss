@@ -301,9 +301,19 @@ ol.lista > li.mas:before {
 
 
 .bg-5 {
-    background: #72CAEE;
-
+    background: #72CAEE; 
+    
 }
+
+
+.jumbo-bg-1 {
+    background:#72CAEE(255, 255, 255);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(203, 217, 228, 1) 100%
+    );
+  }
 
 .sub-ecored {
     h2,
@@ -501,13 +511,13 @@ ol.lista > li.mas:before {
 }
 .texto-encima3{
     position: absolute;
-    top: 100px;
+    top: 150px;
     left: 20px;
     right: 30%;
 }
 .centrado3{
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 30%;
     right: 35%;
     transform: translate(-50%, -50%);
@@ -523,7 +533,7 @@ ol.lista > li.mas:before {
     text-align: left;
 }
 .texto-encima4{
-    position: absolute;
+    position: relative;
     top: 900px;
     left: 100px;
     right: 60%;
